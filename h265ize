@@ -20,9 +20,9 @@ const yargs = require('yargs');
 const git = require('local-git-sync');
 const chokidar = require('chokidar');
 
-const helpers = require(Path.join(__dirname, 'lib/helpers.js'));
-const packageSettings = require(Path.join(__dirname, 'package.json'));
-const h265izeLogger = require('./lib/logger.js');
+const helpers = require('./lib/helpers');
+const packageSettings = require('./package.json');
+const h265izeLogger = require('./lib/logger');
 
 /* INIT */
 
